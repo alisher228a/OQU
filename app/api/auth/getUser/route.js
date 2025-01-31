@@ -1,5 +1,5 @@
 import { connectToDB } from "@/app/lib/utils";
-import { Users } from "@/app/lib/models.ts";
+import { Users } from "@/app/lib/models";
 
 export default async function handler(req, res) {
   if (req.method !== "POST") {

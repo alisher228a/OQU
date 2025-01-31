@@ -1,5 +1,5 @@
 import { Subjects } from '@/app/lib/models';
-import connectToDB from '@/app/lib/utils';
+import { connectToDB } from '@/app/lib/utils';
 
 export default async function handler(req, res) {
   const { id } = req.query;
